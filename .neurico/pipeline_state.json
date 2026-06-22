@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-06-22T15:37:57.942990",
+  "stages": {
+    "resource_finder": {
+      "status": "completed",
+      "started_at": "2026-06-22T15:37:57.943613",
+      "completed_at": "2026-06-22T15:48:14.254087",
+      "success": true,
+      "outputs": {
+        "literature_review": "/workspaces/evaluating_chain_of_thought_pr_20260622_153640_7216a5cf/literature_review.md",
+        "resources_catalog": "/workspaces/evaluating_chain_of_thought_pr_20260622_153640_7216a5cf/resources.md",
+        "papers_dir": "/workspaces/evaluating_chain_of_thought_pr_20260622_153640_7216a5cf/papers",
+        "datasets_dir": "/workspaces/evaluating_chain_of_thought_pr_20260622_153640_7216a5cf/datasets",
+        "code_dir": "/workspaces/evaluating_chain_of_thought_pr_20260622_153640_7216a5cf/code"
+      }
+    },
+    "experiment_runner": {
+      "status": "failed",
+      "started_at": "2026-06-22T15:48:14.257733",
+      "completed_at": "2026-06-22T15:48:14.276825",
+      "success": false,
+      "outputs": {
+        "success": false,
+        "error": "Unknown format code 'f' for object of type 'str'"
+      }
+    }
+  },
+  "current_stage": null,
+  "completed": false
+}
